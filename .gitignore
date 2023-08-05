@@ -24,7 +24,21 @@ share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-MANIFEST
+.DS_Store
+
+# Custom data
+.vector_cache/
+*.pdf
+*.zip
+
+# Remove checkpoints and events logs 
+*.ckpt
+*events.out.tfevents.*
+*MNIST*
+
+
+
+
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
