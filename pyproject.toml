@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "applied-deeplearning"
+version = "0.1.0"
+description = ""
+authors = ["Pranav Jha <pranavjha1993@gmail.com>"]
+readme = "README.md"
+packages = [{include = "applied_deeplearning"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+transformers = {extras = ["torch"], version = "^4.31.0"}
+torch = "^2.0.1"
+torchvision = "^0.15.2"
+torchaudio = "^2.0.2"
+pandas = "^2.0.3"
+jupyter = "^1.0.0"
+ipywidgets = "^8.1.0"
+cython = "0.29.36"
+poetry = "1.4.2"
+datasets = "^2.14.3"
+accelerate = "0.20.3"
+evaluate = "^0.4.0"
+scikit-learn = "^1.3.0"
+scipy = "^1.11.1"
+pytorch-lightning = "^2.0.6"
+lightning = "^2.0.6"
+torchview = "^0.2.6"
+graphviz = "^0.20.1"
+tensorboard = "^2.13.0"
+tensorboardx = "^2.6.2"
+torchviz = "^0.0.2"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
