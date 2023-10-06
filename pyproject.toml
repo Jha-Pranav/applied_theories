@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "applied-deeplearning"
+name = "applied-theories"
 version = "0.1.0"
 description = ""
 authors = ["Pranav Jha <pranavjha1993@gmail.com>"]
 readme = "README.md"
-packages = [{include = "applied_deeplearning"}]
+
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.13"
