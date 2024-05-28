@@ -25,6 +25,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 .DS_Store
+data
 
 # Custom data
 .vector_cache/
